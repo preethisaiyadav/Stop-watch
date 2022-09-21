@@ -1,0 +1,60 @@
+body {
+    background-color: gray;
+    background-image: url("../static/tme_lapse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 5%;
+  }
+  .stopWatch {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+  
+  .mainComponent {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* top: 30%; */
+    border-radius: 40px;
+    place-self: center;
+  }
+  
+  .title {
+    font-size: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .mainComponent > .watchComponent {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  .mainComponent > .watchComponent > p {
+    font-size: 100px;
+    margin: 0px;
+  }
+  
+  .buttonComponent {
+    margin: 10px;
+  }
+  button {
+    padding: 20px 70px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+  
+  button:hover {
+    background-color: white;
+    transform: scaleX(1.05);
+  }
